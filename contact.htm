@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="sv">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <title>Malmö Modelljärnvägsklubb</title>
+    </head>
+    <body>
+        <header>
+            <div class="header__label">
+                <h1>Malmö Modelljärnvägsklubb</h1>
+                <hr>
+                <h3><i>För Unga Och Gamla</i></h3>
+            </div>            
+        </header>
+        
+        <nav>           
+            <ul>
+                <li><a href="index.htm">Hem</a></li>
+                <li><a href="about.htm">Om Oss</a></li>
+                <li><a href="bemember.htm">Bli Medlem</a></li>
+                <li><a href="members.htm">För Medlemmar</a></li>
+                <li><a href="activites.htm">Aktiviteter</a></li>
+                <li><a href="contact.htm" class="active">Kontakt</a></li>
+            </ul>    
+        </nav>
+        
+        <main>
+            <h3>Kontakt</h3>
+            <p>Du kan komma i kontak med oss genom att fylla i kontaktformuläret nedan</p>
+            <br>
+            <form id="form" name="form" method="post" action="http://www.olzzon.com/cgi-bin/p.cgi?epost=patrik.persson10@tele2.se&id=1">
+                <fieldset class="center">
+                    <legend>Meddelande Till Malmö Modelljärnvägsklubb</legend>
+                    <input type="hidden" name="form" value="Kontakt till Malmö Modelljärnvägsklubb">
+                    <label for="fnamn">Förnamn:</label>
+                    <br />
+                    <input type="text" name="fnamn" id="fnamn" />
+                    <br />
+                    <label for="enamn">Efternamn:</label>
+                    <br />
+                    <input type="text" name="enamn" id="enamn" />
+                    <br />
+                    <label for="epost">E-postadress:</label>
+                    <br />
+                    <input type="text" name="epost" id="epost" />
+                    <br />
+                    <label for="meddelande">Meddelande:</label>
+                    <br />
+                    <textarea name="meddelande" id="meddelande" cols="40" rows="5"></textarea>
+                    <br />
+                    <label for="skicka"></label>
+                    <input type="submit" name="skicka" id="skicka" value="Skicka meddelandet" />
+                </fieldset>
+            </form>
+            <br />
+            <p>Du kan också komma till vår klubblokal på Torsdagkvällar kl. 18-20</p>
+            <p>Vå klubblokal ligger på Badvägen 16 i klagshamn som visas på kartan</p>
+            <img src="pics/karta.png" class="center" alt="karta till malmö järnvägsklubb">
+        </main>
+        
+        <footer>
+            <p>Adress: Badvägen 16, 21851 Malmö</p>
+            <p>E-Post: malmomodelljarnvagsklubb@tele2.se</p>    
+        </footer>
+    </body>
+</html>    
